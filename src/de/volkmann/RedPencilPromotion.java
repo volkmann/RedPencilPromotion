@@ -58,10 +58,6 @@ public class RedPencilPromotion {
         return originalPrice;
     }
 
-    public void setOriginalPrice(int originalPrice) {
-        this.originalPrice = originalPrice;
-    }
-
     /**
      * Get the value of lastChange
      *
