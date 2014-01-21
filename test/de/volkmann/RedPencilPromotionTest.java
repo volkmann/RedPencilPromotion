@@ -35,7 +35,6 @@ public class RedPencilPromotionTest {
 
     @Before
     public void setUp() {
-//        rightNow = new GregorianCalendar(NOW_YEAR, NOW_MONTH, NOW_DAY);
         rightNow = Calendar.getInstance();
         lastChange = new GregorianCalendar(rightNow.get(Calendar.YEAR), 
                 rightNow.get(Calendar.MONTH), 
@@ -48,12 +47,6 @@ public class RedPencilPromotionTest {
 
     @After
     public void tearDown() {
-    }
-
-//    @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     @Test
